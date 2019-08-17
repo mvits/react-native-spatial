@@ -3,7 +3,13 @@
 
 ## Getting started
 
-`$ npm install react-native-spatial --save`
+1. Add to `package.json`:
+`
+"dependencies": {
+    "react-native-spatialite": "git://github.com/NeliHarbuzava/react-native-spatial.git"
+  }
+`
+2. Run `npm i`.
 
 ### Mostly automatic installation
 
