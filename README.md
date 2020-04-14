@@ -3,7 +3,7 @@
 
 ## Getting started
 
-1. Run `npm install @neliharbuzava/react-native-spatial@1.0.0`
+1. Run `npm install @neliharbuzava/react-native-spatial`
 
 ### Mostly automatic installation
 
