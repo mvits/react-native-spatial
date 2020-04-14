@@ -46,8 +46,25 @@
 ```javascript
 import RNSpatial from 'react-native-spatial';
 
-// TODO: What to do with the module?
+// open connection
+RNSpatial.connect(this.name + '.sqlite')
+    .then(() => {
+		// execute query
+        return RNSpatial.executeQuery('SELECT * FROM table');
+	})
+	.then(response => {
+		let columns = response.data;
+		// do your work
+	})
+	.catch(err => {
+		console.error(err);
+	});
 
-RNSpatial;
+// close connection
+RNSpatial.close()
+	.then(() => {})
+	.catch(err => {
+		console.error(err);
+	});
 ```
   
