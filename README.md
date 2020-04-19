@@ -3,7 +3,7 @@
 
 ## Getting started
 
-1. Run `npm install @neliharbuzava/react-native-spatial`
+1. Run `npm install https://github.com/NeliHarbuzava/react-native-spatial.git`
 
 ### Mostly automatic installation
 
