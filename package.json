@@ -1,10 +1,9 @@
 {
-  "name": "@neliharbuzava/react-native-spatial",
-  "version": "1.0.3",
+  "name": "@mvits/react-native-spatial",
+  "version": "1.0.0",
   "description": "Spatialite package for React Native.",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "react-native",
     "react-native-spatial",
@@ -13,8 +12,8 @@
     "spatialite"
   ],
   "author": {
-    "name": "Neli Harbuzava",
-    "email": "nelgarbuzova@gmail.com"
+    "name": "Stiv Verdugo",
+    "email": "stivmarquez.ud@gmail.com"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -23,11 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/NeliHarbuzava/react-native-spatial.git"
+    "url": "git://github.com/mvits/react-native-spatial.git"
   },
-  "homepage": "https://github.com/NeliHarbuzava/react-native-spatial",
+  "homepage": "https://github.com/mvits/react-native-spatial",
   "bugs": {
-    "url": "https://github.com/NeliHarbuzava/react-native-spatial/issues"
+    "url": "https://github.com/mvits/react-native-spatial/issues"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
