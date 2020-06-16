@@ -32,9 +32,9 @@ RNSpatial.close()
 		console.error(err);
 	});
 ```
-## About this version
+## About this current version
 
-Version 2.0.0:
+Version [2.0.0](https://github.com/mvits/react-native-spatial/packages/272656):
 
 * Version tested and funtional.
 * Implement library [Geo-Spatialite-Android](https://github.com/mvits/Geo-Spatialite-Android/tree/1.0.0.0) (v1.0.0.0)
