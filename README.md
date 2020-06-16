@@ -1,6 +1,7 @@
 
 # react-native-spatial
 
+
 ## Getting started
 
 1. Run `npm install https://github.com/mvits/react-native-spatial.git`
@@ -31,4 +32,10 @@ RNSpatial.close()
 		console.error(err);
 	});
 ```
-  
+## About this version
+
+Version 2.0.0:
+
+* Version tested and funtional.
+* Implement Geo-Spatialite-Android version 1.0.0
+* Implement spatialite version 4.5.0
