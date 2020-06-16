@@ -37,5 +37,5 @@ RNSpatial.close()
 Version 2.0.0:
 
 * Version tested and funtional.
-* Implement Geo-Spatialite-Android version 1.0.0
+* Implement[Geo-Spatialite-Android](https://github.com/mvits/Geo-Spatialite-Android/tree/1.0.0.0)
 * Implement spatialite version 4.5.0
