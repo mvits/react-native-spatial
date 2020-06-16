@@ -17,12 +17,12 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 26
+        minSdkVersion 19
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -35,10 +35,14 @@ repositories {
     google()
     mavenCentral()
     jcenter()
+    maven {
+        url "https://dl.bintray.com/mvits/geospatial"
+    }
 }
 
+
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    implementation project(path: ':spatialiteandroidlibrary')
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'geospatial:com.spatialite:0.0.1'
 }
   

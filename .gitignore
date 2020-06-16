@@ -44,3 +44,9 @@ buck-out/
 \.buckd/
 *.keystore
       
+
+build/*
+app/build/*
+gradlew
+gradlew.bat
+obj
