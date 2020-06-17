@@ -11,10 +11,7 @@
     "spatial",
     "spatialite"
   ],
-  "author": {
-    "name": "Stiv Verdugo",
-    "email": "stivmarquez.ud@gmail.com"
-  },
+  "author": "Stiv Verdugo <stivmarquez.ud@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2",
