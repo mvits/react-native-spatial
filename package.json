@@ -29,6 +29,6 @@
     "url": "https://github.com/mvits/react-native-spatial/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://www.npmjs.com/"
   }
 }

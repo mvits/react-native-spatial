@@ -9,7 +9,7 @@
 
 ## Usage
 ```javascript
-import RNSpatial from 'react-native-spatial';
+import RNSpatial from '@mvits/react-native-spatial';
 
 // open connection
 RNSpatial.connect(this.name + '.sqlite')
