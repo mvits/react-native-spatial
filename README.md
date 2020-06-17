@@ -41,8 +41,8 @@ Version [2.0.0](https://github.com/mvits/react-native-spatial/packages/272656):
 * Implement spatialite version 4.5.0
 
 
-<sub><sup>
-##Project is a fork from this project:
+<sub>
+Project is a fork from this project:
 https://github.com/NeliHarbuzava/react-native-spatial.git
-</sup></sub>
+</sup>
 
