@@ -46,5 +46,7 @@ Version [2.0.0](https://github.com/mvits/react-native-spatial/packages/272656):
 <sub>
 Project is a fork from this project:
 https://github.com/NeliHarbuzava/react-native-spatial.git
+Initial Project this: 
+https://github.com/vinuvijay7692/react-native-spatial.git
 </sup>
 
