@@ -50,6 +50,6 @@ https://github.com/NeliHarbuzava/react-native-spatial.git
 
 
 
-Initial Project this: 
+Initial project this: 
 https://github.com/vinuvijay7692/react-native-spatial.git
 </sup>
