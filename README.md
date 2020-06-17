@@ -4,7 +4,7 @@
 
 ## Getting started
 
-1. Run `npm install https://github.com/mvits/react-native-spatial.git`
+1. Run `npm install @mvits/react-native-spatial --save`
 
 
 ## Usage
@@ -39,3 +39,10 @@ Version [2.0.0](https://github.com/mvits/react-native-spatial/packages/272656):
 * Version tested and funtional.
 * Implement library [Geo-Spatialite-Android](https://github.com/mvits/Geo-Spatialite-Android/tree/1.0.0.0) (v1.0.0.0)
 * Implement spatialite version 4.5.0
+
+
+<sub><sup>
+##Project is a fork from this project:
+https://github.com/NeliHarbuzava/react-native-spatial.git
+</sup></sub>
+
