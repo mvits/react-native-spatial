@@ -12,7 +12,11 @@
 import RNSpatial from '@mvits/react-native-spatial';
 
 // open connection
-RNSpatial.connect(this.name + '.sqlite')
+let dbParams = {
+  dbName: this.name + '.sqlite'
+};
+
+RNSpatial.connect(dbParams)
     .then(() => {
 		// execute query
         return RNSpatial.executeQuery('SELECT * FROM table');
@@ -34,6 +38,12 @@ RNSpatial.close()
 ```
 ## About this current version
 
+Version [2.0.1]():
+
+* Add support for send a object to connect function and add functionality for create db in local path(Only External Storage Directory).
+
+## About the others versions
+
 Version [2.0.0](https://github.com/mvits/react-native-spatial/packages/272656):
 
 * Version tested and funtional.
@@ -50,6 +60,6 @@ https://github.com/NeliHarbuzava/react-native-spatial.git
 
 
 
-Initial project this: 
+Initial project this:
 https://github.com/vinuvijay7692/react-native-spatial.git
 </sup>
