@@ -14,6 +14,7 @@ import com.facebook.react.bridge.ReadableType;
 import com.facebook.react.bridge.WritableArray;
 import com.facebook.react.bridge.WritableMap;
 
+import java.io.File;
 import java.util.Map;
 import java.util.HashMap;
 
@@ -54,19 +55,39 @@ public class RNSpatialModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void connect(String dbName, Promise promise) {
+    public void connect(ReadableMap paramsDataBase, Promise promise) {
         try {
-            dbName = dbName.trim();
+            String dbName = paramsDataBase.getString("dbName").trim();
+
             if (dbName.isEmpty()) {
                 promise.reject("DBName can't be empty!", new NullPointerException());
                 return;
             }
             dbName = dbName.endsWith(".sqlite") ? dbName : dbName.concat(".sqlite");
-            docDir = getReactApplicationContext().getExternalFilesDir(null).getAbsolutePath();
             WritableMap map = Arguments.createMap();
             db = new Database();
+
+            // Configure Database Path
+            if(paramsDataBase.hasKey("localPath")){
+
+                String localPath = paramsDataBase.getString("localPath").trim();
+                if (localPath.isEmpty()) {
+                    promise.reject("Local path can't be empty!", "Local path can't be empty!");
+                    return;
+                }
+                File mainPath= Environment.getExternalStorageDirectory();
+                File directory = new File(String.valueOf(mainPath)+"/"+localPath);
+                if(!directory.isDirectory()){
+                    directory.mkdirs();
+                }
+                docDir = String.valueOf(directory);
+            }else{
+                docDir = getReactApplicationContext().getExternalFilesDir(null).getAbsolutePath();
+            }
+
             db.open(docDir + "/" + dbName, Constants.SQLITE_OPEN_READWRITE | Constants.SQLITE_OPEN_CREATE);
-//			Check spatial initialized
+
+            //Check spatial initialized
             boolean isSpatial = false;
             try {
                 isSpatial = db.prepare("select count(1) from spatial_ref_sys limit 1").step();
