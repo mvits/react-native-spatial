@@ -38,13 +38,13 @@ RNSpatial.close()
 ```
 ## About this current version
 
-Version [2.0.1]():
+Version [2.0.1](https://github.com/mvits/react-native-spatial/releases/tag/v2.0.1):
 
 * Add support for send a object to connect function and add functionality for create db in local path(Only External Storage Directory).
 
 ## About the others versions
 
-Version [2.0.0](https://github.com/mvits/react-native-spatial/packages/272656):
+Version [2.0.0](https://github.com/mvits/react-native-spatial/releases/tag/v2.0.0):
 
 * Version tested and funtional.
 * Implement library [Geo-Spatialite-Android](https://github.com/mvits/Geo-Spatialite-Android/releases/tag/v1.0.0) (v1.0.0)
