@@ -1,6 +1,6 @@
 {
   "name": "@mvits/react-native-spatial",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Spatialite package for React Native.",
   "main": "index.js",
   "scripts": {},
