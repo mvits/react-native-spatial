@@ -38,12 +38,14 @@ RNSpatial.close()
 ```
 ## About this current version
 
+Version [2.0.3](https://github.com/mvits/react-native-spatial/releases/tag/v2.0.3) :
+* Fixed error publish in npm
+
+## About the others versions
 Version [2.0.2](https://github.com/mvits/react-native-spatial/releases/tag/v2.0.2) :
 
 * Add support to json extension [JSON1 Extension](https://www.sqlite.org/json1.html)
 * Add support sdk android 19 in architecture: armeabi-v7a, x86, arm64-v8a, x86_64
-
-## About the others versions
 
 Version [2.0.1](https://github.com/mvits/react-native-spatial/releases/tag/v2.0.1):
 
