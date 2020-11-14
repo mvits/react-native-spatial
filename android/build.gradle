@@ -42,6 +42,5 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'geospatial:com.spatialite:1.0.0'
+    implementation 'geospatial:com.spatialite:1.0.2'
 }
-  
