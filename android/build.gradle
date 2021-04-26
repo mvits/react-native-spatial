@@ -35,12 +35,10 @@ repositories {
     google()
     mavenCentral()
     jcenter()
-    maven {
-        url "https://dl.bintray.com/mvits/geospatial"
-    }
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'geospatial:com.spatialite:1.0.2'
+    implementation 'com.github.mvits:Geo-Spatialite-Android:1.0.2'
 }
