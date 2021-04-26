@@ -38,10 +38,13 @@ RNSpatial.close()
 ```
 ## About this current version
 
+Version [2.0.5](https://github.com/mvits/react-native-spatial/releases/tag/v2.0.5) :
+* Change call plugin Geo-Spatialite-Android
+
+## About the others versions
 Version [2.0.4](https://github.com/mvits/react-native-spatial/releases/tag/v2.0.4) :
 * Change dependencies package.json
 
-## About the others versions
 Version [2.0.3](https://github.com/mvits/react-native-spatial/releases/tag/v2.0.3) :
 * Fixed error publish in npm
 
